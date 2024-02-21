@@ -1,0 +1,210 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* AD Top */
+  .adverttop {
+    position: relative;
+    width: auto;
+    height: 20rem;
+    background-color: aqua;
+  }
+
+  .adverttop img {
+    position:absolute ;
+    top: 40px;
+    left: 150px;
+  }
+  
+  .adverttop p {
+    position: absolute;
+    left: 63rem;
+    top: 5px;
+  }
+
+  /* WElcome */
+  .welcome {
+    background-color:palegreen;
+    position: relative;
+    bottom: 10px;
+    height: 3rem;
+  }
+
+  .welcome h2 {
+    position: relative;
+    left: 65rem;
+    bottom: 40px;
+  }
+
+  .welcomecontainer {
+    position: relative;
+   background-color: aquamarine;
+   height: 25rem;
+   width: auto;
+  }
+
+   .box1 img {
+    position: absolute;
+    height: 20rem;
+    width: 37rem;
+    top: 2.5rem;
+    left: 2rem;
+  }
+
+   .box2 img {
+    position: absolute;
+    height: 9.5rem;
+    width: 20rem;
+    top: 2.5rem;
+    left: 40rem;
+  }
+
+  .box3 img {
+    position: absolute;
+    height: 9.5rem;
+    width: 20rem;
+    top: 13rem;
+    left: 40rem;
+  }
+
+  .box4 img {
+    position: absolute;
+    height: 9.5rem;
+    width: 20rem;
+    top: 2.5rem;
+    left: 61rem;
+  }
+  .box5 img {
+    position: absolute;
+    height: 10rem;
+    width: 20rem;
+    top: 13rem;
+    left: 61rem;
+  }
+
+
+
+  
+  
+
+/* News */
+h1.news {
+border-left: 2px solid red ;
+padding: 5px;
+}
+
+.newscontainer {
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  width: 100%;
+
+}
+.newscontainer div {
+  
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+  padding: 0;
+ 
+}
+
+.newscontainer img {
+  width: 400px;
+  height: 200px;
+}
+
+.newscontainer p.country {
+  color: black;
+  border-left: 2px solid red;
+  padding: 5px;
+  text-transform: capitalize ;
+}
+
+ /* News */
+h1.sports {
+  border-left: 2px solid yellow ;
+  padding: 5px;
+  }
+  
+  .newscontainer {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    width: 100%;
+  
+  }
+  .newscontainer div {
+    
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    padding: 0;
+   
+  }
+  
+  .newscontainer img {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .newscontainer p.sports {
+    color: black;
+    border-left: 2px solid yellow;
+    padding: 5px;
+    text-transform: capitalize ;
+  }
+   
+  /* Reels */
+ .reels h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .reels p {
+    color: aliceblue;
+    font-size: 20px;
+    
+  }
+
+  .reels {
+    height: 500px;
+    background-image:url(/images/background.avif);
+    display: flex;
+  }
+
+  .reels img {
+    width: 300px;
+    height: 200px;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 10px;
+  }
+  
